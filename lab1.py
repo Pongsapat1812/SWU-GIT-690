@@ -18,7 +18,7 @@ def filter_male():
     mask = df['Sex'] == 'male'
     print(mask)
     flter_row_df = df[mask]
-    query_row_df = df.query('Sex == "male')
+    query_row_df = df.query('Sex == "male"')
     print(query_row_df)
 
 def save_data():
